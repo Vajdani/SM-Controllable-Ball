@@ -1,0 +1,39 @@
+{
+    "partList": [
+        {
+            "color": "9f2600",
+            "friction": 0.250,
+            "name": "obj_controllable_ball",
+            "physicsMaterial": "Metal",
+            "qualityLevel": 0,
+            "renderable": {
+                "lodList": [
+                    {
+                        "mesh": "$CHALLENGE_DATA/Objects/Mesh/interactive/obj_interactive_challengeball.fbx",
+                        "subMeshMap": {
+                            "lambert1": {
+                                "material": "DifAsgNor",
+                                "textureList": [
+                                    "$CHALLENGE_DATA/Objects/Textures/interactive/obj_interactive_challengeball_dif.tga",
+                                    "$CHALLENGE_DATA/Objects/Textures/interactive/obj_interactive_challengeball_asg.tga",
+                                    "$CHALLENGE_DATA/Objects/Textures/interactive/obj_interactive_challengeball_nor.tga"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            },
+            "rotationSet": "PropZ",
+            "scripted": {
+                "classname": "Ball",
+                "data": {},
+                "filename": "$CONTENT_DATA/Scripts/ball.lua"
+            },
+            "sphere": {
+                "diameter": 5
+            },
+            "sticky": "-Z",
+            "uuid": "8075e0f9-a3e4-40b9-96d5-12d458095e4d"
+        }
+    ]
+}
